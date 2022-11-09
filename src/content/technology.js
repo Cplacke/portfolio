@@ -35,12 +35,11 @@ export default [
     },
     { 
         img: './assets/tech/java-spring.svg', title: 'Spring', value: 4, type: 'Frameworks',
-        caption: ''
+        caption: 'The Java backend framework that is pattern driven, it is a complete suite of tools that you may need. I find the downside to this is the abstracted configuration that sometimes can become challenging to reverse engineer how things are accomplished.'
     },
     { 
         img: './assets/tech/cypress.svg', title: 'Cypress', value: 5, type: 'Frameworks',
-        // css: 'bg-void rounded-full p-2',
-        caption: ''
+        caption: 'The best way to do functional testing, by testing the running application in a running browser and asserting the behavior of the UI; over classical unit testing in which you mock data and test the functional methods of a service or component and testing being able to test the integrations of the sum of the parts.'
     },
     { 
         img: './assets/tech/postgresql.png', title: 'PostgreSQL - SQL', value: 4, type: 'Databases',

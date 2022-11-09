@@ -1,5 +1,5 @@
 export const WaveBorder = ({ className, rotate }) => (
-    <div className={rotate ? 'rotate-180' : ''}>
+    <div className={rotate ? 'rotate-180 pointer-events-none' : 'pointer-events-none'}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" 
             className={"absolute "+className}
             style={{ transform: 'scaleY(0.7)', zIndex: 2 }} 

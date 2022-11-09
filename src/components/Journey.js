@@ -18,7 +18,7 @@ class Journey extends Component {
                         and so much more as I worked my way through college and found so may great friends along the way."
                     />
                     <WorkHistory className="" 
-                        item="University South Carolina Beaufort" role="Computational Science" 
+                        item="University South Carolina Beaufort" role="BS Computational Science" 
                         years="2014 - 2018"
                         icon="./assets/icons/hat-graduation.svg" iconLeft
                         content="Like many college students ready to take on the world; I was young, optimistic, and undecided. Starting with the general education courses
