@@ -18,35 +18,33 @@ class Technology extends Component {
     technology;
     alt = true;
 
+    jumpButtonClassList = (isActive) => {
+        let classList = "uppercase hover:text-white hover:bg-blue-300 border border-blue-300 rounded-full px-4 py-2 m-1 ";
+        if ( isActive ) {
+            classList += "text-white bg-blue-300" ;
+        } else {
+            classList += "text-blue-300";
+        }   
+        return classList;
+    }
+
     render() { 
         return (
             <div className="text-gray-200 bg-space pt-36 pb-5">
                 <h2 className="text-3xl text-center text-blue-300 mt-8"> Skills  &amp; Technologies </h2>  
 
                 <div className="m-auto mb-20 w-3/4 lg:w-3/5">
-                    <div className="flex my-6">
-                        <button className={
-                                "uppercase hover:text-white hover:bg-blue-300 border border-blue-300 rounded-full px-4 py-2 mx-auto "
-                                +(this.state.activeType === 'Languages' ? 'text-white bg-blue-300' : 'text-blue-300') 
-                            }
+                    <div className="my-6">
+                        <button className={this.jumpButtonClassList(this.state.activeType === 'Languages')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Languages'))/2, activeType: 'Languages'}) }} 
                         > Languages </button>
-                        <button className={
-                                "uppercase hover:text-white hover:bg-blue-300 border border-blue-300 rounded-full px-4 py-2 mx-auto "
-                                +(this.state.activeType === 'Frameworks' ? 'text-white bg-blue-300' : 'text-blue-300')
-                            }
+                        <button className={this.jumpButtonClassList(this.state.activeType === 'Frameworks')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Frameworks'))/2, activeType: 'Frameworks'} ) }}
                         > Frameworks </button>
-                        <button className={
-                                "uppercase hover:text-white hover:bg-blue-300 border border-blue-300 rounded-full px-4 py-2 mx-auto "
-                                +(this.state.activeType === 'Databases' ? 'text-white bg-blue-300' : 'text-blue-300') 
-                            }
+                        <button className={this.jumpButtonClassList(this.state.activeType === 'Databases')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Databases'))/2, activeType: 'Databases'} ) }}
                         > Databases </button>
-                        <button className={
-                                "uppercase hover:text-white hover:bg-blue-300 border border-blue-300 rounded-full px-4 py-2 mx-auto "
-                                +(this.state.activeType === 'Tools & Deployment' ? 'text-white bg-blue-300' : 'text-blue-300') 
-                            }
+                        <button className={this.jumpButtonClassList(this.state.activeType === 'Tools & Deployment')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Tools & Deployment'))/2, activeType: 'Tools & Deployment'} ) }}
                         > Tools &amp; Deployment </button>
                     </div>
@@ -77,7 +75,7 @@ class Technology extends Component {
                                             let classList = this.alt ? 'mr-auto ml-0' : 'ml-auto mr-0 text-right';
                                             this.alt = !this.alt;
                                             return (
-                                                <div className={classList+" w-3/4 px-4"} key={`tech-${i}-${j}`}>
+                                                <div className={classList+" w-full md:w-3/4 px-4"} key={`tech-${i}-${j}`}>
                                                     <img src={item.img} className={classList+" h-24 my-4 "+item.css} />
                                                     <div className="text-blue-200 font-medium">
                                                         { item.title } 
