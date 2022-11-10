@@ -21,9 +21,10 @@ class Navigation extends Component {
                     <img src='./assets/tech/github.svg' className="h-10 absolute right-0 bottom-1 cursor-pointer"
                         onClick={() => window.open('https://github.com/cplacke')}
                     />
+                    <img src='./assets/tech/spotify.png' className="h-10 absolute right-12 bottom-1 cursor-pointer"
+                        onClick={() => window.open('https://open.spotify.com/user/cplacke')}
+                    />
                 </div>
-                {/* <div className="w-1/2 pt-2 ">
-                </div> */}
             </div>
         );
     }
