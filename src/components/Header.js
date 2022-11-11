@@ -16,7 +16,13 @@ class Header extends Component {
                 <h3 className="text-lg"> Full Stack Web Engineer </h3>
 
                 <div className="w-3/4 lg:w-2/5 my-6 text-md text-gray-200 text-left m-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Id porta nibh venenatis cras sed. Sodales ut etiam sit amet nisl purus. 
+                    Senior Developer with 5+ years experience in the healthcare technology industry,
+                    building large scale multi-tenant applications for health care providers across the country at Optum Technology.
+                    Working in an agile environment as a part of full stack development team, as team front-end and JavaScript 
+                    subject matter expert.
+                </div>
+                <div className="w-3/4 lg:w-2/5 my-6 text-md text-gray-200 text-left m-auto text-right font-fredoka">
+                    "I don't embrace excuses, I embrace solutions" <span className="text-gray-400"> ~ John Taffer </span>
                 </div>
 
                 <WaveBorder className="-bottom-7 md:-bottom-10 lg:-bottom-16" />

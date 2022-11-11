@@ -2,7 +2,7 @@ export default [
     { 
         img: './assets/tech/deno.png', title: 'Deno', value: 5, type: 'Languages',
         css: 'rounded-full bg-white',
-        caption: 'TypeScript out of the box V8 JS secure runtime environment, no configuration or transpilation required, my current go to for personal projects question answering. The next step in the NodeJS project, my favorite feature: native Promises and async/await all included.'
+        caption: 'TypeScript out of the box V8 JS secure runtime environment, no configuration or transpilation required, my current go to for personal projects, sandboxing, and answering questions. The next step in the NodeJS project, my favorite feature: native Promises and async/await all included.'
     },
     { 
         img: './assets/tech/node.png', title: 'Node', value: 4.5, type: 'Languages',
@@ -54,8 +54,8 @@ export default [
         caption: 'Every developers best friend, working with Git 8+ years, living in the command line, I can\'t imagine a day with version control. Having experience in GitOps, the ability to manage code and deployments all in one system is second to none.'
     },
     { 
-        img: './assets/tech/terminal.png', title: 'Terminal', value: 5, type: 'Tools & Deployment',
-        caption: 'A developers home base, and a key role in being a fast and successful developer. While constantly expanding the tools that you can pull from to answer questions.'
+        img: './assets/tech/postman.png', title: 'Postman', value: 5, type: 'Tools & Deployment',
+        caption: 'API testing and automation, whenever you need to test some services in development or one you are about to integrate with I find this the best interface. With scripting capabilities, test runners, and exportable/sharable collections of request we can share and distribute out to the development, QA, and product teams'
     },
     { 
         img: './assets/tech/docker.svg', title: 'Docker', value: 4.5,type: 'Tools & Deployment',
@@ -63,15 +63,15 @@ export default [
     },
     { 
         img: './assets/tech/openshift.png', title: 'Openshift', value: 4.5, type: 'Tools & Deployment',
-        caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras.'
+        caption: 'My container deployment platform of choice, the open source option supported by RedHat. Kubernetes is the way to go for modern deployment that is easily configuration for replication, load balancing, and rolling deployments.'
     },
     { 
         img: './assets/tech/linux.png', title: 'Linux', value: 5, type: 'Tools & Deployment',
-        caption: 'As a developer often spending my time in a Linux/Unix terminal environment I find it comforting to count on, when it comes to debugging live services or navigating code.'
+        caption: 'As a developer often spending my time in a Linux/Unix terminal environment I find it comforting to count on, when it comes to debugging live services or navigating code. Windows need washing.'
     },
     { 
-        img: './assets/tech/postman.png', title: 'Postman', value: 5, type: 'Tools & Deployment',
-        caption: 'API testing and automation, whenever you need to test some services in development or one you are about to integrate with I find this the best interface. With scripting capabilities, test runners, and exportable/sharable collections of request we can share and distribute out to the development, QA, and product teams'
+        img: './assets/tech/terminal.png', title: 'Terminal', value: 5, type: 'Tools & Deployment',
+        caption: 'A developers home base, and a key role in being a fast and successful developer. While constantly expanding the tools that you can pull from to answer questions.'
     },
     { 
         img: './assets/tech/vscode.png', title: 'VScode', value: 5, type: 'Tools & Deployment',
@@ -79,6 +79,6 @@ export default [
     },
     { 
         img: './assets/tech/webpack.png', title: 'Webpack', value: 3.5, type: 'Tools & Deployment',
-        caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras.'
+        caption: 'Transpile and minify JavaScript and prep it for production deployment, the config driven transpiler for TS and most front-end frameworks. I find it a good tool with limitless extensions that you can add for TS/ES+ functionality.'
     },
 ];
