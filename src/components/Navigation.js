@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 class Navigation extends Component {
 
     navigationStyle = ({ isActive }) => {
-        let classList = 'uppercase px-2 hover:text-blue-300 transition-colors duration-500';
+        let classList = 'uppercase pl-1 md:px-2 hover:text-blue-300 transition-colors duration-500';
         if (isActive) {
             classList += ' text-blue-300';
         }

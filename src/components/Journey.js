@@ -6,7 +6,7 @@ class Journey extends Component {
     render() { 
         return (
             <div className="relative">
-                <div className="text-left m-auto mb-20 w-3/4 lg:w-3/5 block">
+                <div className="text-left m-auto mb-20 px-4 md:p-0 w-full md:w-3/4 lg:w-3/5 block">
                     <h2 className="text-3xl text-center text-blue-900 mt-6"> My Journey </h2>  
                     { 
                         workHistory.map((workHistory, i) => (

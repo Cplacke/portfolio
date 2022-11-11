@@ -33,8 +33,8 @@ class Technology extends Component {
             <div className="text-gray-200 bg-space pt-36 pb-5">
                 <h2 className="text-3xl text-center text-blue-300 mt-8"> Skills  &amp; Technologies </h2>  
 
-                <div className="m-auto mb-20 w-3/4 lg:w-3/5">
-                    <div className="mt-6">
+                <div className="m-auto mb-20 px-4 md:p-0 w-full md:w-3/4 lg:w-3/5">
+                    <div className="my-6 md:mb-0 ">
                         <button className={this.jumpButtonClassList(this.state.activeType === 'Languages')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Languages'))/2, activeType: 'Languages'}) }} 
                         > Languages </button>
@@ -46,7 +46,10 @@ class Technology extends Component {
                         > Databases </button>
                         <button className={this.jumpButtonClassList(this.state.activeType === 'Tools & Deployment')}
                             onClick={() => { this.setState({ slideIndex: this.technology.findIndex((t) => (t.type === 'Tools & Deployment'))/2, activeType: 'Tools & Deployment'} ) }}
-                        > Tools &amp; Deployment </button>
+                        > 
+                            <span className="hidden sm:inline"> Tools &amp; Deployment </span>
+                            <span className="inline sm:hidden"> Other Tools </span>
+                        </button>
                     </div>
                     <Carousel wrapAround={true}
                         beforeSlide={(curr, next) => { 
