@@ -30,8 +30,8 @@ class Technology extends Component {
 
     render() { 
         return (
-            <div className="text-gray-200 bg-space pt-36 pb-5">
-                <h2 className="text-3xl text-center text-blue-300 mt-8"> Skills  &amp; Technologies </h2>  
+            <div className="text-gray-200 bg-space pt-20 pb-5">
+                <h2 className="text-3xl text-center text-blue-300 mt-8 lg:mt-20"> Skills  &amp; Technologies </h2>  
 
                 <div className="m-auto mb-20 px-4 md:p-0 w-full md:w-3/4 lg:w-3/5">
                     <div className="my-6 md:mb-0 ">

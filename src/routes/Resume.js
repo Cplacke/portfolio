@@ -4,11 +4,11 @@ export const Resume = () => {
     return (
         <div>
             <Navigation />
+            <h2 className="text-3xl text-center text-blue-300 py-10 mb-10 object-fill bg-space"> Resumé </h2>
             <div className="w-full md:w-3/4 lg:w-1/2 px-4 md:px-0 mx-auto mb-20">
-                <h2 className="text-3xl text-center text-blue-900 my-10"> Resumé </h2>
 
                 <h3 className="text-2xl text-blue-900"> Colin Placke </h3>
-                <div className="text-blue-800"> 2212 Paul’s Penny Lane, Raleigh  NC 27603 | 843-816-4318 | Cplakce@gmail.com </div>
+                <div className="text-blue-800"> 2212 Paul’s Penny Lane, Raleigh  NC 27603 | 843-816-4318 | cplacke@gmail.com </div>
 
                 <h4 className="text-xl text-blue-900 mt-4"> Summary </h4>
                 <div className="ml-4">
@@ -25,8 +25,6 @@ export const Resume = () => {
                     <div> University of South Carolina Beaufort Mathematics Tutor </div>
                     <div> Graduate Magna Cum Laude </div>
                 </div>
-                
-                
                 {/* Current GPA – 3.89 */}
                 <h4 className="text-xl text-blue-900 mt-4"> Skills &amp; Abilities  </h4>
                 <div className="ml-4 mb-4">
@@ -50,6 +48,7 @@ export const Resume = () => {
                         <li> Bash and Shell scripting </li>
                         <li> Unity <span className="text-gray-700">[Game Engine]</span> </li>
                         <li> Mobile App Development </li>
+                        <li> Responsive Design </li>
                         <li> Agile Development Model </li>
                     </ul>
                 </div>
