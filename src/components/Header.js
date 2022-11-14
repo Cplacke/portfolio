@@ -22,7 +22,7 @@ class Header extends Component {
                     subject matter expert.
                 </div>
                 <div className="w-full md:p-0 w-3/4 lg:w-2/5 my-6 text-md text-gray-200 text-left m-auto text-right font-fredoka">
-                    "I don't embrace excuses, I embrace solutions" <span className="text-gray-400"> ~ John Taffer </span>
+                    "I'm a simple man trying to make my way through the galaxy." <span className="text-gray-400"> ~ Boba Fett </span>
                 </div>
 
                 <WaveBorder className="-bottom-7 md:-bottom-10 lg:-bottom-16" />

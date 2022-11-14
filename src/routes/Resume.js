@@ -61,7 +61,7 @@ export const Resume = () => {
                     <div> 3rd Place in Java implemented Video Game - Class Final </div>
                     <div> 3rd Place Presentation in Research and Scholarship Day </div>
                     <div> Honorable Mention - HACKATHONCLT 2018 and 2019 </div>
-                    <div> Excellence in Healthcare Award - NHS Genomics Patient Choice &amp; Consent </div>
+                    <div> MakeIT Happen Award - NHS Genomics Patient Choice &amp; Consent </div>
                 </div>
 
                 <h4 className="text-xl text-blue-900 mt-4"> Work Experience </h4>

@@ -11,14 +11,13 @@ export const Projects = () => {
                     <div className="w-full md:w-1/2 inline-block"> 
                         I was wondering if there is a CSS or javascript magic that could place a marker in an html text so that the browser know where the line break creation is preffered when the text gets cramped. Is there such thing?
                         <a onClick={() => window.open("http://number-game.deno.dev")}
-                            className="text-blue-500 hover:underline mt-4 block"
+                            className="text-blue-500 hover:underline my-4 block"
                         > Go to http://number-game.deno.dev
                         </a>
                     </div>
-                    <div className="w-full md:w-1/2 inline-block align-top pl-4"> 
-                        {/* <img src="./assets/screens/mathel-question.png" /> */}
-                        <img className="w-2/5 inline-block mx-4 rounded-md" src="./assets/screens/mathel-question-mobile.png" />
-                        <img className="w-2/5 inline-block mx-4 rounded-md" src="./assets/screens/mathel-final-mobile.png" />
+                    <div className="w-full md:w-1/2 flex md:inline-block align-top mx-auto"> 
+                        <img className="w-2/5 inline-block mr-auto ml-4 md:mx-4 rounded-md" src="./assets/screens/mathel-question-mobile.png" />
+                        <img className="w-2/5 inline-block ml-auto mr-4 md:mx-4 rounded-md" src="./assets/screens/mathel-final-mobile.png" />
                     </div>
                 </div>
                 <div>
@@ -26,12 +25,12 @@ export const Projects = () => {
                     <div className="w-full md:w-1/2 inline-block"> 
                         I was wondering if there is a CSS or javascript magic that could place a marker in an html text so that the browser know where the line break creation is preffered when the text gets cramped. Is there such thing?
                         <a onClick={() => window.open("http://charcuterieandmore.deno.dev")}
-                            className="text-blue-500 hover:underline mt-4 block"
+                            className="text-blue-500 hover:underline my-4 block"
                         > Go to http://charcuterieandmore.deno.dev
                         </a>
                     </div>
-                    <div className="w-full md:w-1/2 inline-block align-top pl-4">
-                        <img className="mx-4 rounded-md" src="./assets/screens/charcuterie.png" />
+                    <div className="w-full md:w-1/2 inline-block align-top md:pl-4 mx-auto">
+                        <img className="rounded-md" src="./assets/screens/charcuterie.png" />
                     </div>
                 </div>
                 <div>
