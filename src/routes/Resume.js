@@ -5,7 +5,7 @@ export const Resume = () => {
         <div className="relative">
             <Navigation />
             <h2 className="text-3xl text-center text-blue-300 py-10 object-fill bg-space relative z-10"> Resumé </h2>
-            <img src="./assets/faces/luke-skywalker.png" className="h-32 z-20 absolute top-20 right-24 md:right-64 lg:right-96 peek-a-boo" />
+            <img src="./assets/faces/luke-skywalker.png" className="h-32 z-20 absolute top-20 right-8 sm:right-24 md:right-64 lg:right-96 peek-a-boo" />
             <div className="w-full md:w-3/4 lg:w-3/5 px-4 md:px-0 mx-auto mb-20 pt-10 relative z-30 bg-void">
 
                 <h3 className="text-2xl text-blue-900"> Colin Placke </h3>
