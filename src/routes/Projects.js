@@ -19,7 +19,7 @@ export const Projects = () => {
                         > Go to http://number-game.deno.dev
                         </a>
                     </div>
-                    <div className="w-full md:w-1/2 flex md:inline-block align-top mx-auto"> 
+                    <div className="w-full md:w-1/2 flex md:inline-block align-top mx-auto" style={{ maxHeight: '40%' }}> 
                         <img className="w-2/5 inline-block mr-auto ml-4 md:mx-4 rounded-md" src="./assets/screens/mathel-question-mobile.png" />
                         <img className="w-2/5 inline-block ml-auto mr-4 md:mx-4 rounded-md" src="./assets/screens/mathel-final-mobile.png" />
                     </div>
