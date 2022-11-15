@@ -6,7 +6,7 @@ class Header extends Component {
     render() { 
         return (
             <div style={{ backgroundImage: 'url(./assets/shooting-stars-gen-2.svg)', zIndex: 1, position: 'relative'}}
-                className="py-16 xl:pb-40 text-center text-blue-300"
+                className="py-16 xl:pb-40 text-center text-blue-300 bg-space"
             >
                 <img src="./assets/colin-placke.png"
                     className="h-64 m-auto block rounded-full"

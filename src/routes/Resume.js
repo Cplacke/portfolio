@@ -2,10 +2,11 @@ import Navigation from '../components/Navigation'
 
 export const Resume = () => { 
     return (
-        <div>
+        <div className="relative">
             <Navigation />
-            <h2 className="text-3xl text-center text-blue-300 py-10 mb-10 object-fill bg-space"> Resumé </h2>
-            <div className="w-full md:w-3/4 lg:w-1/2 px-4 md:px-0 mx-auto mb-20">
+            <h2 className="text-3xl text-center text-blue-300 py-10 object-fill bg-space relative z-10"> Resumé </h2>
+            <img src="./assets/faces/luke-skywalker.png" className="h-32 z-20 absolute top-20 right-24 md:right-64 lg:right-96 peek-a-boo" />
+            <div className="w-full md:w-3/4 lg:w-3/5 px-4 md:px-0 mx-auto mb-20 pt-10 relative z-30 bg-void">
 
                 <h3 className="text-2xl text-blue-900"> Colin Placke </h3>
                 <div className="text-blue-800"> 2212 Paul’s Penny Lane, Raleigh  NC 27603 | 843-816-4318 | cplacke@gmail.com </div>
@@ -38,7 +39,6 @@ export const Resume = () => {
                         <li> Progressive Web Apps <span className="text-gray-700">[PWA]</span> </li>
                         <li> RxJs <span className="text-gray-700">[Observables, Subscriptions]</span> </li>
                         <li> Developer Workflow Automation </li>
-
                     </ul>
                     <ul className="w-ful md:w-1/2 inline-block list-disc list-inside" style={{ verticalAlign: 'top' }}>
                         <li> GitHub and GitOps CI/CD </li>

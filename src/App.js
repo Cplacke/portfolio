@@ -6,6 +6,7 @@ import {
 import Footer from './components/Footer'
 import { HomePage, Projects, Resume } from './routes/index'
 import './App.css';
+import './Animation.css';
 
 const router = createBrowserRouter([
   {

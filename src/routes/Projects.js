@@ -2,10 +2,14 @@ import Navigation from '../components/Navigation'
 
 export const Projects = () => { 
     return (
-        <div>
+        <div className="relative bg-void">
             <Navigation />
-            <h2 className="text-3xl text-center text-blue-300 py-10 mb-10 object-fill bg-space"> Projects </h2>
-            <div className="w-full md:w-4/5 lg:w/3-4 px-4 md:px-0 mx-auto mb-20">
+            <h2 className="text-3xl text-center text-blue-300 py-10 object-fill bg-space z-10">
+                Projects 
+            </h2>
+            <img src="./assets/faces/darth-vader.png" className="h-32 z-20 absolute top-20 left-3 md:left-48 peek-a-boo" />
+            <img src="./assets/faces/boba-fett.png" className="h-32 z-20 absolute top-20 right-14 md:right-56 peek-a-boo-offset" />
+            <div className="bg-void w-full md:w-4/5 lg:w/3-4 px-4 md:px-0 mx-auto mb-20 pt-10 z-30 relative">
                 <div>
                     <h3 className="text-blue-900 text-xl my-6"> Mathel - a Number Game </h3>
                     <div className="w-full md:w-1/2 inline-block"> 
