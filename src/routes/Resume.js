@@ -10,13 +10,14 @@ export const Resume = () => {
 
             <div className="w-full md:w-3/4 lg:w-3/5 px-4 md:px-0 mx-auto mb-20 pt-10 relative z-30 bg-void">
                 <h3 className="text-2xl text-blue-900"> Colin Placke </h3>
-                <div className="text-blue-800"> 2212 Paul’s Penny Lane, Raleigh  NC 27603 | 843-816-4318 | cplacke@gmail.com </div>
+                <div className="text-blue-800"> Raleigh  NC 27603 | cplacke@gmail.com </div>
 
-                <h4 className="text-xl text-blue-900 mt-4"> Summary </h4>
+                <h4 className="text-xl text-blue-900 mt-4"> About Me </h4>
                 <div className="ml-4">
-                    I am currently a Senior Developer with 5+ years experience in the Healthcare Technology industry at Optum Technology, over the past 
-                    years I have been able to learn a tremendous amount about full stack and enterprise development. I am ready to take my experience
-                    and continue my journey outside of healthcare, explore more of the world, and find a place to work in the intersection of my greatest joys.
+                    As a seasoned Senior Developer with over 5 years of experience in Healthcare Technology at Optum Technology, 
+                    I have gained extensive knowledge in full stack and enterprise development. With a hunger for new challenges, 
+                    I am now seeking to broaden my horizons outside of the healthcare industry and explore exciting opportunities 
+                    in the intersection of my greatest passions.
                 </div>
 
                 <h4 className="text-xl text-blue-900 mt-4"> Education </h4>
@@ -71,19 +72,18 @@ export const Resume = () => {
                 <h4 className="text-xl text-blue-900 mt-4"> Work Experience </h4>
                 <div className="ml-4">
                     <div className="text-md text-blue-800 mt-2"> Shift Supervisor | Southern Barrel Brewing Co. | May 2015 - Jan 2018 </div>
-                        <div className="ml-2"> Training of new employees, and managed customer and employee relations </div>
-                        <div className="ml-2"> Cicerone certified Beer Server, certification demonstrating a competent knowledge of beer storage, service, knowledge of beer styles, culture, and knowledge about brewing process and ingredients.</div>
+                        <div className="ml-2"> Trained new employees and managed customer and employee relations with success. </div>
+                        <div className="ml-2"> Obtained Cicerone certified Beer Server certification, demonstrating expertise in beer storage, service, knowledge of beer styles and culture, and the brewing process and ingredients. </div>
                     <div className="text-md text-blue-800 mt-2"> Sole Proprietor | Complete iPhone Repair | Sep 2016 - Jan 2018 </div>
-                        <div className="ml-2"> Started own business, repairing and replacing iPhone parts </div>
-                        <div className="ml-2"> Managed all ordering, scheduling of repairs, diagnosis, and installing new parts to the devices </div>
+                        <div className="ml-2"> Founded and operated an iPhone repair business, managing all aspects of the operation, including ordering, repair scheduling, diagnosis, and installation of new parts. </div>
                     <div className="text-md text-blue-800 mt-2"> TDP Internship | Optum Technology | May 2017 – July 2017 </div>
-                        <div className="ml-2"> Developer on Surgical Planning Application using Augmented Reality </div>
-                        <div className="ml-2"> Full Stack developer, working with Unity engine </div>
+                        <div className="ml-2"> Developed a Surgical Planning Application using Augmented Reality as a Developer. </div>
+                        <div className="ml-2"> Worked as a Full Stack developer with the Unity engine. </div>
                     <div className="text-md text-blue-800 mt-2"> Senior Software Engineer | Optum Technology | Jan 2018 – CURRENT </div>
-                        <div className="ml-2"> Senior Full Stack Developer, working as co-lead of Agile development team </div>
-                        <div className="ml-2"> Team front-end and JavaScript subject matter expert </div>
-                        <div className="ml-2"> Develop and iterate on Microservice based back-end application ecosystem, as well as application and admin font-end applications </div>
-                        <div className="ml-2"> Code Owner; responsible for reviewing, revising and editing a maintainable and reuseable code base </div>
+                        <div className="ml-2"> Served as Senior Full Stack Developer and co-lead of an Agile development team. </div>
+                        <div className="ml-2"> Served as a subject matter expert on front-end development and JavaScript for the team. </div>
+                        <div className="ml-2"> Designed and iterated on a Microservice-based back-end application ecosystem, as well as front-end applications for both users and admins. </div>
+                        <div className="ml-2"> Acted as the Code Owner, responsible for reviewing, revising, and maintaining a maintainable and reusable code base. </div>
                 </div>
             </div>
         </div>
