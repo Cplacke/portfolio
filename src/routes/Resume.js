@@ -59,8 +59,8 @@ export const Resume = () => {
 
 
                 {/* Excellent Math, Problem Solving, and Algorithm development skills */}
-                <h4 className="text-md text-blue-900 ml-4 mt-4"> Awards  </h4>
-                <div className="ml-8">
+                <h4 className="text-xl text-blue-900 mt-4"> Awards </h4>
+                <div className="ml-4">
                     <div> South Carolina LIFE Scholarship recipient </div>
                     <div> 3rd Place in Java implemented Video Game - Class Final </div>
                     <div> 3rd Place Presentation in Research and Scholarship Day </div>

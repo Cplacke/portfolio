@@ -11,11 +11,11 @@ const workHistory = [
         item:"Food & Beverage", role:"Server / Bartender",
         years:"2011 - 2018",
         icon:"./assets/icons/dinner.svg",
-        content:`I began my working career while in High School and throughout College working in food and beverage, 
-        working nights and doubles on the weekends. There I met so many great people that help honed my worth ethic and the hustle mentality
-        that I still carry with me. 
-        Being able learn some many things from Rolling Burritos, Food Expediting, Serving Etiquette, Bartending, Craft Beer knowledge, 
-        and so much more as I worked my way through college and found so may great friends along the way.`
+        content:`Started my career while in high school and continued through college, working in the food and beverage industry. 
+        I worked nights and doubles on the weekends and had the opportunity to meet many exceptional people who helped me develop my work 
+        ethic and hustling mentality that I still carry with me today. During this time, I gained experience in rolling burritos, 
+        food expediting, serving etiquette, bartending, and craft beer knowledge. As I worked my way through college, I learned many valuable 
+        skills and made lasting friendships along the way.`
     },{
         item:"University South Carolina Beaufort", role:"BS Computational Science", 
         years:"2014 - 2018",
