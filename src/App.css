@@ -31,3 +31,24 @@ svg.paging-dot {
 .slider-frame {
     padding-top: 40px;
 }
+
+.chat-right:after{
+	content: ' ';
+	position: absolute;
+	right: 7%;
+    bottom: -30px;
+	border: 20px solid;
+	border-color:  rgb(191, 219, 254)
+        rgb(191, 219, 254)
+        transparent transparent;
+}
+.chat-left:after{
+	content: ' ';
+	position: absolute;
+	left: 7%;
+    bottom: -30px;
+	border: 20px solid;
+	border-color:  rgb(229, 231, 235) 
+        transparent transparent
+        rgb(229, 231, 235) ;
+}

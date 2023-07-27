@@ -7,15 +7,18 @@ class Journey extends Component {
         return (
             <div className="relative">
                 <div className="text-left m-auto mb-20 px-4 md:p-0 w-full md:w-3/4 lg:w-3/5 block">
-                    <h2 className="text-3xl text-center text-blue-900 mt-6"> My Journey </h2>  
+                    <h2 className="text-3xl text-center text-blue-900 mt-6"> Work History </h2>  
                     { 
                         workHistory.map((workHistory, i) => (
-                            <WorkHistory className={i%2 == 0 ? "text-right ml-auto mr-0" : ""}
+                            <WorkHistory 
+                                className={i%2 == 0 ? " bg-blue-200 ml-auto mr-0 chat-right" : "bg-gray-200 chat-left"}
                                 item={workHistory.item}
                                 role={workHistory.role}
                                 years={workHistory.years}
                                 icon={workHistory.icon}
-                                iconRight={i%2 == 0} iconLeft={i%2 != 0}
+                                // iconRight={i%2 == 0} 
+                                // iconLeft={i%2 != 0}
+                                iconLeft={true}
                                 content={workHistory.content}
                             />
                         ))
