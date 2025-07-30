@@ -9,7 +9,7 @@ const links = {
 const workHistory = [
     {
         item:"Optum Technology", role:"Software Engineer", 
-        years:"2018 - Current",
+        years:"2018 - 2025",
         icon:"./assets/icons/briefcase.svg",
         content:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Id porta nibh venenatis cras sed. Sodales ut etiam sit amet nisl purus. `
     },

@@ -14,10 +14,7 @@ export const Resume = () => {
 
                 <h4 className="text-xl text-blue-900 mt-4"> About Me </h4>
                 <div className="ml-4">
-                    As a seasoned Senior Developer with over 5 years of experience in Healthcare Technology at Optum Technology, 
-                    I have gained extensive knowledge in full stack and enterprise development. With a hunger for new challenges, 
-                    I am now seeking to broaden my horizons outside of the healthcare industry and explore exciting opportunities 
-                    in the intersection of my greatest passions.
+                    Hello my name is Colin, A Cicerone-certified food and beverage professional with over 7 years of extensive experience in dynamic bar and service environments, specializing in beer knowledge and service excellence. Eager to bring a passion for exceptional guest experience in high-volume operations to a food and beverage role at the Lenovo Center.
                 </div>
 
                 <h4 className="text-xl text-blue-900 mt-4"> Education </h4>
@@ -31,7 +28,7 @@ export const Resume = () => {
                     <div> Graduate Magna Cum Laude </div>
                 </div>
                 {/* Current GPA – 3.89 */}
-                <h4 className="text-xl text-blue-900 mt-4"> Skills &amp; Abilities  </h4>
+                {/* <h4 className="text-xl text-blue-900 mt-4"> Skills &amp; Abilities  </h4>
                 <div className="ml-4 mb-4">
                     <ul className="w-ful md:w-1/2 inline-block list-disc list-inside" style={{ verticalAlign: 'top' }}>
                         <li> Java 11, Java Spring, Java SpringBoot </li>
@@ -55,7 +52,7 @@ export const Resume = () => {
                         <li> Responsive Design </li>
                         <li> Agile Development Model </li>
                     </ul>
-                </div>
+                </div> */}
 
 
                 {/* Excellent Math, Problem Solving, and Algorithm development skills */}
@@ -79,7 +76,7 @@ export const Resume = () => {
                     <div className="text-md text-blue-800 mt-2"> TDP Internship | Optum Technology | May 2017 – July 2017 </div>
                         <div className="ml-2"> Developed a Surgical Planning Application using Augmented Reality as a Developer. </div>
                         <div className="ml-2"> Worked as a Full Stack developer with the Unity engine. </div>
-                    <div className="text-md text-blue-800 mt-2"> Senior Software Engineer | Optum Technology | Jan 2018 – CURRENT </div>
+                    <div className="text-md text-blue-800 mt-2"> Senior Software Engineer | Optum Technology | Jan 2018 – 2025 </div>
                         <div className="ml-2"> Served as Senior Full Stack Developer and co-lead of an Agile development team. </div>
                         <div className="ml-2"> Served as a subject matter expert on front-end development and JavaScript for the team. </div>
                         <div className="ml-2"> Designed and iterated on a Microservice-based back-end application ecosystem, as well as front-end applications for both users and admins. </div>
