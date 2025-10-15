@@ -14,7 +14,7 @@ export const Resume = () => {
 
                 <h4 className="text-xl text-blue-900 mt-4"> About Me </h4>
                 <div className="ml-4">
-                    As a seasoned Senior Developer with over 5 years of experience in Healthcare Technology at Optum Technology, 
+                    As a seasoned Senior Developer with over 7 years of experience in Healthcare Technology at Optum Technology, 
                     I have gained extensive knowledge in full stack and enterprise development. With a hunger for new challenges, 
                     I am now seeking to broaden my horizons outside of the healthcare industry and explore exciting opportunities 
                     in the intersection of my greatest passions.
