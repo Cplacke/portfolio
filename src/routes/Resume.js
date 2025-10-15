@@ -10,12 +10,20 @@ export const Resume = () => {
 
             <div className="w-full md:w-3/4 lg:w-3/5 px-4 md:px-0 mx-auto mb-20 pt-10 relative z-30 bg-void">
                 <h3 className="text-2xl text-blue-900"> Colin Placke </h3>
-                <div className="text-blue-800"> Raleigh  NC | cplacke@gmail.com </div>
+                <div className="text-blue-800"> Raleigh NC | cplacke@gmail.com  | https://cplacke.deno.dev </div>
 
                 <h4 className="text-xl text-blue-900 mt-4"> About Me </h4>
                 <div className="ml-4">
-                    Hello my name is Colin a Cicerone-certified food and beverage professional with over 7 years of extensive experience in dynamic bar and service environments, specializing in beer knowledge and service excellence. Eager to bring a passion for exceptional guest experience in high-volume operations to a food and beverage role at the Lenovo Center.
+                    As a seasoned Senior Developer with over 5 years of experience in Healthcare Technology at Optum Technology, 
+                    I have gained extensive knowledge in full stack and enterprise development. With a hunger for new challenges, 
+                    I am now seeking to broaden my horizons outside of the healthcare industry and explore exciting opportunities 
+                    in the intersection of my greatest passions.
                 </div>
+                {/* 
+                    Beer job target
+                <div className="ml-4">
+                    Hello my name is Colin a Cicerone-certified food and beverage professional with over 7 years of extensive experience in dynamic bar and service environments, specializing in beer knowledge and service excellence. Eager to bring a passion for exceptional guest experience in high-volume operations to a food and beverage role at the Lenovo Center.
+                </div> */}
 
                 <h4 className="text-xl text-blue-900 mt-4"> Education </h4>
                 <div className="ml-4">
